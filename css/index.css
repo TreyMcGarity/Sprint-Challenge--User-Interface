@@ -68,10 +68,8 @@ p {
 
 header {
     display: flex;
-    justify-content: row;
-    /* justify-content: ; */
-    align-items: center;
-    margin: 20px;
+    align-items: flex-end;
+    margin: 20px 0;
 }
 
 header nav {
@@ -185,6 +183,47 @@ header nav a {
     padding-right: 0;
 }
 
+/*about page styling*/
+
+    .about-top-content {
+        margin: 20px 0;
+        padding: 20px 10px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .about-middle-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10px 10px;
+    }
+    
+    .about-middle-content section {
+        width: 48%;
+        margin: 20px 0;
+        padding: 0 0 10px 0;
+        border-bottom: 1px dashed black;
+    }
+    .about-middle-content img {
+        margin-bottom: 10px;
+    }
+    .about-bottom-content {
+        margin: 20px 10px;
+    }
+
+    button {
+        background: white;
+        color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+
 footer {
     width: 100%;
     background: black;
@@ -195,8 +234,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 20px;
+    font-size: 15px;
 }
 
 footer nav a {
